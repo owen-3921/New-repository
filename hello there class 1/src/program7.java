@@ -1,5 +1,5 @@
 /* 
-	 Project: Program 6
+	 Project: Program 7
 	 Author: Owen Shoemaker
 	 github: Owen-3921
 	 Description: To make a game between 2 teams using arrays
