@@ -8,7 +8,7 @@
 	 */
 
 
-
+//inports the scanners
 
 import java.util.Random;
 import java.util.Scanner;
@@ -32,7 +32,7 @@ public class program7 {
 		int totalScore1 = 0;
 		System.out.print("Team 1 \t Team 2");
 		
-		
+		//randomizes the scores
 		for(int i = 0;i<arraySize;i++)
 		{
 			scores[i] = rnd.nextInt(100);
@@ -52,7 +52,8 @@ public class program7 {
 		
 		System.out.println("\n=~=~=~=~=~=~");
 		System.out.println(totalScore + "\t" + totalScore1);
-	
+		
+	//outputs the total score, declares winner
 		for(int u = totalScore; u <=totalScore;u++)
 		{
 			if(totalScore>totalScore1)

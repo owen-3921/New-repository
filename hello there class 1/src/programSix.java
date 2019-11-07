@@ -7,6 +7,7 @@
 	 Last Updates: 7 Nov 2019
 	 */
 
+//input scanner
 import java.util.Scanner;
 
 public class programSix {
@@ -66,7 +67,7 @@ public class programSix {
 		
 		
 	
-
+//displays the actions the user can perform
 
 	public static void displayMenu()
 	{
