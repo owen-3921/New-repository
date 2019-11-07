@@ -1,3 +1,15 @@
+/* 
+	 Project: Program 6
+	 Author: Owen Shoemaker
+	 github: Owen-3921
+	 Description: To make a game between 2 teams using arrays
+	 Version: 2.0
+	 Last Updates: 7 Nov 2019
+	 */
+
+
+
+
 import java.util.Random;
 import java.util.Scanner;
 

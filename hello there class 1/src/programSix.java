@@ -1,3 +1,12 @@
+/* 
+	 Project: Program 6
+	 Author: Owen Shoemaker
+	 github: Owen-3921
+	 Description: To make a working bank account
+	 Version: 2.0
+	 Last Updates: 7 Nov 2019
+	 */
+
 import java.util.Scanner;
 
 public class programSix {
