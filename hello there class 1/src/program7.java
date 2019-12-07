@@ -27,25 +27,23 @@ public class program7 {
 		System.out.println("Welcome to Kick Ball: the game where you compete in kicking the ball and score runs ");
 		System.out.println("How many gamnes do you want to play? ");
 		int arraySize = keyboard.nextInt();
-		int[] scores = new int[arraySize];
+		int[][] scores = new int[2][arraySize];
 		int totalScore = 0;
 		int totalScore1 = 0;
 		System.out.print("Team 1 \t Team 2");
 		
 		//randomizes the scores
-		for(int i = 0;i<arraySize;i++)
+		for(int row = 0;row<arraySize;row++)
 		{
-			scores[i] = rnd.nextInt(100);
-			System.out.print("\n" + scores[i]);
-			totalScore = totalScore + scores[i];
-			scores[i] = rnd.nextInt(100);
-			System.out.print("\t" + scores[i]);
-			totalScore1 = totalScore1 + scores[i];
-			
-			
-
-			
-			
+			for(int col = 0;col<arraySize;row++)
+			{
+			scores[row][col] = rnd.nextInt(100);
+			System.out.print("\n" + scores[row][col]);
+			totalScore = totalScore + scores[row][col];
+			scores[row][col] = rnd.nextInt(100);
+			System.out.print("\t" + scores[row][col]);
+			totalScore1 = totalScore1 + scores[row][col];
+			}
 			
 		}
 	
